@@ -37,7 +37,7 @@ public class anargrams {
         // Convert strings to character arrays and sort them
         char[] charArray1 = str1.toCharArray();
         char[] charArray2 = str2.toCharArray();
-
+        //sorting the arrays
         Arrays.sort(charArray1);
         Arrays.sort(charArray2);
 
