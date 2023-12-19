@@ -6,10 +6,11 @@ public class PyramidPattern {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
+		//entering the number of rows
 		System.out.println("Enter the number of rows:");
 		int numRows = scanner.nextInt();
 		
-		int currentNumber = 1;
+		int count = 1;
 		
 		for (int i=1; i<=numRows; i++)
 		{
@@ -22,8 +23,9 @@ public class PyramidPattern {
 			//for printing the numbers
 			for(int j=1;j<=i; j++)
 			{
-				System.out.print(currentNumber + "\t\t");
-				currentNumber++;
+				System.out.print(count + "\t\t");
+				//incrementing 
+				count++;
 			}
 			
 			System.out.println(" ");
